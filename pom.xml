@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>saikiranpro</groupId>
+	<artifactId>Kiranmaven</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>KiranMavenJbehave</name>
+
+	<properties>
+		<jbehave-core.version>4.1.1</jbehave-core.version>
+		<maven-plugin-api.version>2.0.11</maven-plugin-api.version>
+		<maven-artifact.version>2.0.11</maven-artifact.version>
+		<maven-project.version>2.0.11</maven-project.version>
+		<plexus-archiver.version>1.2</plexus-archiver.version>
+		<testng.version>6.11</testng.version>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbehave</groupId>
+			<artifactId>jbehave-core</artifactId>
+			<version>${jbehave-core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>${maven-plugin-api.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-artifact</artifactId>
+			<version>${maven-artifact.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-project</artifactId>
+			<version>${maven-project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-archiver</artifactId>
+			<version>${plexus-archiver.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
